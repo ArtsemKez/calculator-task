@@ -1,9 +1,10 @@
 .calculator{
     border: 1.5px solid #6c1b1b;
     border-radius: 2px;
-    margin-top: 15%;
-    margin-left: 25%;
-    margin-right: 25%;
+    width: 400px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .input{
