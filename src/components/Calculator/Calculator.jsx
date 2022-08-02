@@ -25,6 +25,7 @@ const Calculator = () => {
                     type='number'
                     value={inputValue}
                     onChange={(event)=> {changeInput(event)}}
+                    placeholder={'123...'}
                 />
             </div>
             <Numpad/>

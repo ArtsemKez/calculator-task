@@ -18,11 +18,11 @@ button{
     color: #ffffff;
 }
 
-/*.button:hover{*/
-/*    color: #c71d1d;*/
-/*    box-shadow: 0 0 20px rgba(0,0,0,5)*/
-/*}*/
+.button:hover{
+    color: #c71d1d;
+    box-shadow: 0 0 20px rgba(0,0,0,5)
+}
 
-/*.button:active{*/
-/*    color: #a26363;*/
-/*}*/
+.button:active{
+    color: #a26363;
+}

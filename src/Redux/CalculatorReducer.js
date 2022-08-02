@@ -1,12 +1,11 @@
 let initialState = {
-    inputValue: 0
+    inputValue: '',
 }
 
 const CalculatorReducer = (state = initialState, actions) => {
     switch (actions.type){
         case 'CHANGE-INPUT':
             let newInputValue = actions.newInputValue
-            console.log(state.inputValue)
             return {...state, inputValue: [newInputValue]}
         default:
             return state

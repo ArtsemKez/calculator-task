@@ -3,10 +3,11 @@ import styles from './Numpad.module.css'
 import CustomizedButton from "../../UI/CustomizedButton/CustomizedButton";
 
 const Numpad = () => {
+
     return (
         <div className={styles.numpad}>
-            <div className={styles.one}><CustomizedButton  >1</CustomizedButton></div>
-            <div className={styles.two}><CustomizedButton >2</CustomizedButton></div>
+            <div className={styles.one}><CustomizedButton>1</CustomizedButton></div>
+            <div className={styles.two}><CustomizedButton>2</CustomizedButton></div>
             <div className={styles.three}><CustomizedButton >3</CustomizedButton></div>
             <div className={styles.four}><CustomizedButton>4</CustomizedButton></div>
             <div className={styles.five}><CustomizedButton>5</CustomizedButton></div>
