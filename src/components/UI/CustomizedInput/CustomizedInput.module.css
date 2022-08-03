@@ -6,7 +6,9 @@
     color: #ffffff;
     font-size: 25px;
     text-align: end;
-    width: 99%;
+    width: 98%;
+    border-top: none;
+    outline:none;
 }
 
 input[type=number]::-webkit-inner-spin-button,
